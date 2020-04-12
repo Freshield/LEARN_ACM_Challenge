@@ -9,8 +9,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/chp1$a2_ants.coverage" NAME="a2_ants Coverage Results" MODIFIED="1586757420974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chp1$a2_ants.coverage" NAME="a2_ants Coverage Results" MODIFIED="1586590730135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp1$a1_triangle.coverage" NAME="a1_triangle Coverage Results" MODIFIED="1586746749150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chp1$a0_paper_number.coverage" NAME="a0_paper_number Coverage Results" MODIFIED="1586592014860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf>
@@ -103,7 +104,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.a2_ants">
+  <component name="RunManager" selected="Python.a0_paper_number">
+    <configuration name="a0_paper_number" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="chp1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a0_paper_number.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="a1_triangle" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chp1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -150,6 +173,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.a0_paper_number" />
         <item itemvalue="Python.a2_ants" />
         <item itemvalue="Python.a1_triangle" />
       </list>
