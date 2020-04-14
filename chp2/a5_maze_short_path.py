@@ -54,7 +54,6 @@ def maze_short_path(maze_list, start_tuple, goal_tuple):
                 else:
                     process_queue.append((next_x, next_y))
 
-
     return path_list[goal_tuple[0], goal_tuple[-1]]
 
 
