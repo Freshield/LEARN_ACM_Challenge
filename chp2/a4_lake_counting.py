@@ -34,8 +34,6 @@ def del_linking(lake_i, lake_j, lake_list):
                 del_linking(i, j, lake_list)
 
 
-
-
 def lake_counting(lake_list):
     """
     求出一共有多少水洼，水洼按八联通
