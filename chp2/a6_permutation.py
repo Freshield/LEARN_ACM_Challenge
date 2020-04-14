@@ -20,6 +20,7 @@ def permutation(pos, permutation_list, used_list=None, value_list=None):
     """
     生成所有的排列方法
     解法：递归位置，如果还没使用过则继续递归直到全部都使用
+    重点在于区分pos和i的意义，一个是当前的位置，一个是遍历的值的位置
     整体流程：
     1. 生成一样大小的是否使用的列表
     2. 终止条件pos等于pernmutation_list长度代表完成一次排列
