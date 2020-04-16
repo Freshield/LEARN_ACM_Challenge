@@ -37,11 +37,6 @@ def solve(word_S, n):
     # 2. 遍历所有位置
     fetch_left = True
     for _ in range(n):
-
-        print(T)
-        print(word_S)
-        print(r_word_S)
-
         # 3. 比较两个字符串大小决定从什么位置选取
         for i in range(len(word_S)):
             if word_S[i] < r_word_S[i]:
