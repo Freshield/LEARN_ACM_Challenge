@@ -65,7 +65,6 @@ def link_reverse(start_point: LinkPoint):
     return last_point
 
 
-
 if __name__ == '__main__':
     last_point = None
     for i in range(10, -1, -1):
