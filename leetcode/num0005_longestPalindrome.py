@@ -90,7 +90,7 @@ def longestPalindrome_dp(test_str):
     # 1. 判别test_str长度是否小于3
     str_size = len(test_str)
     if str_size < 3:
-        return str_size
+        return test_str
 
     # 2. 构建dp矩阵以及其他中间变量
     dp = np.ones((str_size, str_size), dtype=np.int8) * -1
@@ -133,6 +133,79 @@ def longestPalindrome_dp(test_str):
     return test_str[max_left: max_right+1]
 
 
+def cal_spread(test_str, center_left, center_right):
+    """
+    计算center为中心扩散出来的最长回文索引
+    中止条件：
+        center_left<0, center_right>len(test_str)-1,
+        test_str[center_left] != test_str[center_right]
+    """
+    while True:
+        if (center_left < 1) or (center_right > len(test_str) - 2):
+            break
+        elif test_str[center_left-1] != test_str[center_right+1]:
+            break
+
+        center_left -= 1
+        center_right += 1
+
+    return center_left, center_right
+
+
+
+def longestPalindrome_spread(test_str):
+    """
+    利用中心扩散的方法来进行
+    解法：
+    通过遍历位置寻找中心点，然后从中心往两边扩散的方法找最长回文
+    1. 如何遍历：中心点有两种，分别是单独的中心点以及相邻的中心点，
+        遍历应该从1到N-1
+    2. 查找条件：si == sj
+    整体流程：
+    1. 判断字符串长度是否小于3
+    2. 准备相应的中间变量
+    3. 遍历center位置
+    4. 得到odd，spread的索引，计算长度
+    5. 如果center+1和center相等计算even的spread索引，计算长度
+    6. 进行比较得到最大序列
+    7. 返回最大序列
+    """
+    # 1. 判断字符串长度是否小于3
+    str_size = len(test_str)
+    if str_size < 3:
+        return test_str
+
+    # 2. 准备相应的中间变量
+    max_len = 1
+    max_left = -1
+    max_right = -1
+
+    # 3. 遍历center位置
+    for center in range(1, str_size-1):
+        # 4. 得到odd，spread的索引，计算长度
+        odd_left, odd_right = cal_spread(test_str, center, center)
+        odd_len = odd_right - odd_left + 1
+        # 5. 如果center+1和center相等计算even的spread索引，计算长度
+        even_left = -1
+        even_right = 0
+        if test_str[center] == test_str[center+1]:
+            even_left, even_right = cal_spread(test_str, center, center+1)
+        even_len = even_right - even_left + 1
+
+        # 6. 进行比较得到最大序列
+        if (odd_len >= even_len) and (odd_len > max_len):
+            max_len = odd_len
+            max_left = odd_left
+            max_right = odd_right
+        elif even_len > max_len:
+            max_len = even_len
+            max_left = even_left
+            max_right = even_right
+
+    # 7. 返回最大序列
+    return test_str[max_left: max_right+1]
+
+
 
 if __name__ == '__main__':
     test_str0 = 'babad'
@@ -140,5 +213,7 @@ if __name__ == '__main__':
 
     # print(longestPalindrome_force(test_str0))
     # print(longestPalindrome_force(test_str1))
-    print(longestPalindrome_dp(test_str0))
-    print(longestPalindrome_dp(test_str1))
+    # print(longestPalindrome_dp(test_str0))
+    # print(longestPalindrome_dp(test_str1))
+    print(longestPalindrome_spread(test_str0))
+    print(longestPalindrome_spread(test_str1))
