@@ -172,23 +172,23 @@ def longestPalindrome_spread(test_str):
     """
     # 1. 判断字符串长度是否小于3
     str_size = len(test_str)
-    if str_size < 3:
+    if str_size < 2:
         return test_str
 
     # 2. 准备相应的中间变量
-    max_len = 1
+    max_len = 0
     max_left = -1
     max_right = -1
 
     # 3. 遍历center位置
-    for center in range(1, str_size-1):
+    for center in range(str_size):
         # 4. 得到odd，spread的索引，计算长度
         odd_left, odd_right = cal_spread(test_str, center, center)
         odd_len = odd_right - odd_left + 1
         # 5. 如果center+1和center相等计算even的spread索引，计算长度
-        even_left = -1
-        even_right = 0
-        if test_str[center] == test_str[center+1]:
+        even_left = 0
+        even_right = -1
+        if (center != str_size - 1) and (test_str[center] == test_str[center+1]):
             even_left, even_right = cal_spread(test_str, center, center+1)
         even_len = even_right - even_left + 1
 
@@ -210,10 +210,12 @@ def longestPalindrome_spread(test_str):
 if __name__ == '__main__':
     test_str0 = 'babad'
     test_str1 = 'cbbda'
+    test_str2 = 'ac'
 
     # print(longestPalindrome_force(test_str0))
     # print(longestPalindrome_force(test_str1))
     # print(longestPalindrome_dp(test_str0))
     # print(longestPalindrome_dp(test_str1))
-    print(longestPalindrome_spread(test_str0))
-    print(longestPalindrome_spread(test_str1))
+    # print(longestPalindrome_spread(test_str0))
+    # print(longestPalindrome_spread(test_str1))
+    print(longestPalindrome_spread(test_str2))
