@@ -14,6 +14,7 @@
 @                                    Freshield @
 @==============================================@
 """
+import heapq
 
 
 def get_Kth_num(nums1, start1, end1, nums2, start2, end2, K):
@@ -76,11 +77,107 @@ def findMedianSortedArrays(nums1, nums2):
     else:
         return get_Kth_num(nums1, 0, len(nums1)-1, nums2, 0, len(nums2)-1, (total_len+1)//2)
 
+class Solution:
+    """
+    给定两个大小为 m 和 n 的有序数组 nums1 和 nums2。
+    请你找出这两个有序数组的中位数，并且要求算法的时间复杂度为 O(log(m + n))。
+    你可以假设 nums1 和 nums2 不会同时为空
+    解法：
+    使用遍历数组的方法，上下一直走步，遍历到哪个值小就哪边再走一步，一共走(m+n)//2步
+    """
+    def findMedianSortedArrays(self, nums1, nums2):
+        """
+        整体流程：
+        1. 生成中间变量
+        2. 遍历走步
+        3. 遍历条件i<m and j<n and (i+j)<(m+n+2)//2
+        4. 判断大小并放到堆中
+        5. 判断剩余的值
+        6. 根据长短返回
+        """
+        # 1. 生成中间变量
+        heap = []
+        i = 0
+        j = 0
+        step = 0
+
+        if len(nums1) == 0:
+            nums1 = nums2
+        elif len(nums2) == 0:
+            nums2 = nums1
+
+        if (len(nums1) == 1) and (len(nums2) == 1):
+            return (nums1[0] + nums2[0]) / 2
+
+
+        m = len(nums1)
+        n = len(nums2)
+        mid = ((m+n) // 2) + 1
+
+        # 2. 遍历走步
+        # 3. 遍历条件i<m and j<n and (i+j)<(m+n)//2
+        while True:
+            # 4. 判断大小并放到堆中
+            if nums1[i] < nums2[j]:
+                heapq.heappush(heap, nums1[i])
+                i += 1
+            else:
+                heapq.heappush(heap, nums2[j])
+                j += 1
+
+            if len(heap) > 2:
+                heapq.heappop(heap)
+            step += 1
+            if (i==m) or (j==n) or (step == mid):
+                break
+
+        # 5. 判断剩余的值
+        # 如果相等
+        if (step < mid) and (i == m):
+            while True:
+                heapq.heappush(heap, nums2[j])
+                j += 1
+                if len(heap) > 2:
+                    heapq.heappop(heap)
+                step += 1
+                if step == mid:
+                    break
+        elif (step < mid) and (j == n):
+            while True:
+                heapq.heappush(heap, nums1[i])
+                i += 1
+                if len(heap) > 2:
+                    heapq.heappop(heap)
+                step += 1
+                if step == mid:
+                    break
+
+        # 6. 根据长短返回
+        if (m+n) % 2 == 1:
+            heapq.heappop(heap)
+            return heapq.heappop(heap)
+        else:
+            rst = heapq.heappop(heap)
+            return (rst + heapq.heappop(heap)) / 2
+
+
+
+
+
 
 if __name__ == '__main__':
-    nums1 = [1, 3]
-    nums2 = [2, 4]
-    # nums1 = [1,2]
-    # nums2 = [i+1 for i in range(10)]
-    # test = [0,1,2,3,4,5,6,7]
-    print(findMedianSortedArrays(nums1, nums2))
+    # nums1 = [1]
+    # nums2 = [2,3]
+    # (1+2)//2 = 1
+    # nums1 = [1, 3]
+    # nums2 = [2, 4]
+    #(2+2)//2 = 2
+    # nums1 = [1,2,2,2.5]
+    # nums2 = [i+1 for i in range(6)]
+    # test = [1,2,3,4,5,6]
+    # nums1 = [1, 1, 3, 3]
+    # nums2 = [1, 1, 3, 3]
+    nums1 = []
+    nums2 = [1]
+    # print(findMedianSortedArrays(nums1, nums2))
+    print(Solution().findMedianSortedArrays(nums1, nums2))

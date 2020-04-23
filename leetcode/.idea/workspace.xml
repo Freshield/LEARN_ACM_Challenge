@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4d6151e-576f-457c-a7c0-0a7015dc0956" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/num0004_findMedianSortedArrays.py" beforeDir="false" afterPath="$PROJECT_DIR$/num0004_findMedianSortedArrays.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +28,8 @@
     <SUITE FILE_PATH="coverage/leetcode$num0070_climbStairs.coverage" NAME="num0070_climbStairs Coverage Results" MODIFIED="1587198406566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$num0344_reverseString.coverage" NAME="num0344_reverseString Coverage Results" MODIFIED="1587450079650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$num0007_reverse.coverage" NAME="num0007_reverse Coverage Results" MODIFIED="1587392868077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$num0004_findMedianSortedArrays.coverage" NAME="num0004_findMedianSortedArrays Coverage Results" MODIFIED="1587219768882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$num0448_findDisappearedNumbers.coverage" NAME="num0448_findDisappearedNumbers Coverage Results" MODIFIED="1587394275831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$num0004_findMedianSortedArrays.coverage" NAME="num0004_findMedianSortedArrays Coverage Results" MODIFIED="1587620498818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$num0113_pathSum.coverage" NAME="num0113_pathSum Coverage Results" MODIFIED="1587455366167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$num0121_maxProfit.coverage" NAME="num0121_maxProfit Coverage Results" MODIFIED="1587437508561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$num0169_majorityElement.coverage" NAME="num0169_majorityElement Coverage Results" MODIFIED="1587308739882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -45,15 +45,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/num0344_reverseString.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
-              <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/num0448_findDisappearedNumbers.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -108,13 +99,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/num0023_mergeKLists.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
+            <state relative-caret-position="-793">
+              <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/num0004_findMedianSortedArrays.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="118" selection-start-line="118" selection-end-line="118" />
               <folding>
-                <element signature="e#512#524#0" expanded="true" />
+                <marker date="1587620285074" expanded="true" signature="1576:1579" ph="..." />
               </folding>
             </state>
           </provider>
@@ -160,7 +160,6 @@
         <option value="$PROJECT_DIR$/num0070_climbStairs.py" />
         <option value="$PROJECT_DIR$/num0003_lengthOfLongestSubstring.py" />
         <option value="$PROJECT_DIR$/num0002_addTwoNumbers.py" />
-        <option value="$PROJECT_DIR$/num0004_findMedianSortedArrays.py" />
         <option value="$PROJECT_DIR$/num0021_mergeTwoLists.py" />
         <option value="$PROJECT_DIR$/num0015_threeSum.py" />
         <option value="$PROJECT_DIR$/num0053_maxSubArray.py" />
@@ -185,6 +184,7 @@
         <option value="$PROJECT_DIR$/num0072_minDistance.py" />
         <option value="$PROJECT_DIR$/num0043_multiply.py" />
         <option value="$PROJECT_DIR$/num0023_mergeKLists.py" />
+        <option value="$PROJECT_DIR$/num0004_findMedianSortedArrays.py" />
       </list>
     </option>
   </component>
@@ -256,7 +256,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.num0023_mergeKLists">
+  <component name="RunManager" selected="Python.num0004_findMedianSortedArrays">
+    <configuration name="num0004_findMedianSortedArrays" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/num0004_findMedianSortedArrays.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="num0023_mergeKLists" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -293,28 +315,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/num0043_multiply.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="num0050_myPow" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/num0050_myPow.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -368,19 +368,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.num0050_myPow" />
       <item itemvalue="Python.num0113_pathSum" />
       <item itemvalue="Python.num0072_minDistance" />
       <item itemvalue="Python.num0043_multiply" />
       <item itemvalue="Python.num0023_mergeKLists" />
+      <item itemvalue="Python.num0004_findMedianSortedArrays" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.num0004_findMedianSortedArrays" />
         <item itemvalue="Python.num0023_mergeKLists" />
         <item itemvalue="Python.num0043_multiply" />
         <item itemvalue="Python.num0072_minDistance" />
         <item itemvalue="Python.num0113_pathSum" />
-        <item itemvalue="Python.num0050_myPow" />
       </list>
     </recent_temporary>
   </component>
@@ -408,24 +408,23 @@
       <workItem from="1587540898687" duration="541000" />
       <workItem from="1587541520280" duration="51000" />
       <workItem from="1587566449167" duration="4610000" />
-      <workItem from="1587608465951" duration="1629000" />
+      <workItem from="1587608465951" duration="7722000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67885000" />
+    <option name="totallyTimeSpent" value="73978000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="402" width="1855" height="1084" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29164362" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34414226" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39853558" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34414226" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39853558" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -433,7 +432,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.19668508" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.19665273" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -448,81 +447,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/num0004_findMedianSortedArrays.py</url>
-          <line>76</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/num0004_findMedianSortedArrays.py</url>
-          <line>29</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/num0004_findMedianSortedArrays.py</url>
-          <line>30</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/num0004_findMedianSortedArrays.py</url>
-          <line>32</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/num0004_findMedianSortedArrays.py</url>
-          <line>33</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/num0004_findMedianSortedArrays.py</url>
-          <line>36</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/num0004_findMedianSortedArrays.py</url>
-          <line>37</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/num0004_findMedianSortedArrays.py</url>
-          <line>43</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/num0004_findMedianSortedArrays.py</url>
-          <line>44</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/num0004_findMedianSortedArrays.py</url>
-          <line>47</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/num0004_findMedianSortedArrays.py</url>
-          <line>48</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/num0004_findMedianSortedArrays.py</url>
-          <line>49</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/num0004_findMedianSortedArrays.py</url>
-          <line>50</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/num0004_findMedianSortedArrays.py</url>
-          <line>39</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/num0004_findMedianSortedArrays.py</url>
-          <line>40</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/num0021_mergeTwoLists.py</url>
           <line>41</line>
@@ -838,6 +762,46 @@
           <line>76</line>
           <option name="timeStamp" value="132" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/num0004_findMedianSortedArrays.py</url>
+          <line>133</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/num0004_findMedianSortedArrays.py</url>
+          <line>140</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/num0004_findMedianSortedArrays.py</url>
+          <line>150</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/num0004_findMedianSortedArrays.py</url>
+          <line>151</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/num0004_findMedianSortedArrays.py</url>
+          <line>154</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/num0004_findMedianSortedArrays.py</url>
+          <line>116</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/num0004_findMedianSortedArrays.py</url>
+          <line>134</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/num0004_findMedianSortedArrays.py</url>
+          <line>141</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -870,16 +834,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1830">
           <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num0004_findMedianSortedArrays.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2190">
-          <caret line="73" column="88" selection-start-line="73" selection-start-column="88" selection-end-line="73" selection-end-column="88" />
-          <folding>
-            <marker date="1587219768804" expanded="true" signature="1563:1566" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1087,10 +1041,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/num0023_mergeKLists.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
+        <state relative-caret-position="-793">
+          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/num0004_findMedianSortedArrays.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
           <folding>
-            <element signature="e#512#524#0" expanded="true" />
+            <marker date="1587620285074" expanded="true" signature="1576:1579" ph="..." />
           </folding>
         </state>
       </provider>
