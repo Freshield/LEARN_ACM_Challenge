@@ -60,7 +60,6 @@ class Solution:
         return rst_list
 
 
-
 if __name__ == '__main__':
     matrix = [
         [1, 2, 3],
