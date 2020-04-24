@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4d6151e-576f-457c-a7c0-0a7015dc0956" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/num0136_singleNumber.py" beforeDir="false" afterPath="$PROJECT_DIR$/num0136_singleNumber.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../others/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../others/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../others/.idea/others.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../others/.idea/others.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../others/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../others/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +28,7 @@
     <SUITE FILE_PATH="coverage/leetcode$num0008_myAtoi.coverage" NAME="num0008_myAtoi Coverage Results" MODIFIED="1587299312018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$num0053_maxSubArray.coverage" NAME="num0053_maxSubArray Coverage Results" MODIFIED="1587279815889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$num0001_two_sum.coverage" NAME="num0001_two_sum Coverage Results" MODIFIED="1587105144922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$num0072_minDistance.coverage" NAME="num0072_minDistance Coverage Results" MODIFIED="1587537996674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$num0072_minDistance.coverage" NAME="num0072_minDistance Coverage Results" MODIFIED="1587737931421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$num0011_maxArea.coverage" NAME="num0011_maxArea Coverage Results" MODIFIED="1587366599891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$num0015_threeSum.coverage" NAME="num0015_threeSum Coverage Results" MODIFIED="1587274980608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$num0215_findKthLargest.coverage" NAME="num0215_findKthLargest Coverage Results" MODIFIED="1587304005071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -48,11 +53,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/num0072_minDistance.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+            <state relative-caret-position="164">
+              <caret line="72" column="30" lean-forward="true" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -60,7 +65,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/num0043_multiply.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
+            <state relative-caret-position="1260">
               <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
             </state>
           </provider>
@@ -69,7 +74,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/num0215_findKthLargest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2068">
+            <state relative-caret-position="2820">
               <caret line="94" column="20" selection-start-line="94" selection-start-column="20" selection-end-line="94" selection-end-column="20" />
             </state>
           </provider>
@@ -78,7 +83,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/num0023_mergeKLists.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
+            <state relative-caret-position="750">
               <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
             </state>
           </provider>
@@ -87,7 +92,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/num0004_findMedianSortedArrays.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4026">
+            <state relative-caret-position="5490">
               <caret line="183" selection-start-line="183" selection-end-line="183" />
             </state>
           </provider>
@@ -96,7 +101,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/num0054_spiralOrder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
+            <state relative-caret-position="1830">
               <caret line="61" selection-start-line="61" selection-end-line="61" />
             </state>
           </provider>
@@ -105,17 +110,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/num0026_removeDuplicates.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="56" lean-forward="true" selection-start-line="16" selection-end-line="56" />
+            <state relative-caret-position="1680">
+              <caret line="56" selection-start-line="16" selection-end-line="56" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/num0136_singleNumber.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="1110">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
             </state>
           </provider>
         </entry>
@@ -123,7 +128,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/queue.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4928">
+            <state relative-caret-position="6720">
               <caret line="226" column="14" selection-start-line="226" selection-start-column="14" selection-end-line="226" selection-end-column="14" />
             </state>
           </provider>
@@ -132,7 +137,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/heapq.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4488">
+            <state relative-caret-position="6120">
               <caret line="204" column="4" selection-start-line="204" selection-start-column="4" selection-end-line="204" selection-end-column="4" />
             </state>
           </provider>
@@ -192,10 +197,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="138" />
-    <option name="y" value="472" />
+    <option name="x" value="65" />
+    <option name="y" value="402" />
     <option name="width" value="1855" />
-    <option name="height" value="1056" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -242,7 +247,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../others" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -259,7 +264,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.num0136_singleNumber">
+  <component name="RunManager" selected="Python.num0072_minDistance">
     <configuration name="num0004_findMedianSortedArrays" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -274,28 +279,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/num0004_findMedianSortedArrays.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="num0023_mergeKLists" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/num0023_mergeKLists.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -348,6 +331,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="num0072_minDistance" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/num0072_minDistance.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="num0136_singleNumber" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -371,19 +376,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.num0023_mergeKLists" />
       <item itemvalue="Python.num0004_findMedianSortedArrays" />
       <item itemvalue="Python.num0054_spiralOrder" />
       <item itemvalue="Python.num0026_removeDuplicates" />
       <item itemvalue="Python.num0136_singleNumber" />
+      <item itemvalue="Python.num0072_minDistance" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.num0072_minDistance" />
         <item itemvalue="Python.num0136_singleNumber" />
         <item itemvalue="Python.num0026_removeDuplicates" />
         <item itemvalue="Python.num0054_spiralOrder" />
         <item itemvalue="Python.num0004_findMedianSortedArrays" />
-        <item itemvalue="Python.num0023_mergeKLists" />
       </list>
     </recent_temporary>
   </component>
@@ -414,21 +419,24 @@
       <workItem from="1587608465951" duration="8710000" />
       <workItem from="1587653747609" duration="1420000" />
       <workItem from="1587692971283" duration="3163000" />
+      <workItem from="1587735186095" duration="129000" />
+      <workItem from="1587737928974" duration="390000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79549000" />
+    <option name="totallyTimeSpent" value="80068000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="402" width="1855" height="1084" extended-state="6" />
+    <frame x="89" y="-6" width="1831" height="1086" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18317653" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18880723" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34309623" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34254143" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39853558" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -971,71 +979,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/num0072_minDistance.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        <state relative-caret-position="164">
+          <caret line="72" column="30" lean-forward="true" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/num0043_multiply.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
+        <state relative-caret-position="1260">
           <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/num0215_findKthLargest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2068">
+        <state relative-caret-position="2820">
           <caret line="94" column="20" selection-start-line="94" selection-start-column="20" selection-end-line="94" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/num0023_mergeKLists.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
+        <state relative-caret-position="750">
           <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/num0004_findMedianSortedArrays.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4026">
+        <state relative-caret-position="5490">
           <caret line="183" selection-start-line="183" selection-end-line="183" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/queue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4928">
-          <caret line="226" column="14" selection-start-line="226" selection-start-column="14" selection-end-line="226" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/heapq.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4488">
-          <caret line="204" column="4" selection-start-line="204" selection-start-column="4" selection-end-line="204" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/num0054_spiralOrder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
+        <state relative-caret-position="1830">
           <caret line="61" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/num0026_removeDuplicates.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="56" lean-forward="true" selection-start-line="16" selection-end-line="56" />
+        <state relative-caret-position="1680">
+          <caret line="56" selection-start-line="16" selection-end-line="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/num0136_singleNumber.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="1110">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6720">
+          <caret line="226" column="14" selection-start-line="226" selection-start-column="14" selection-end-line="226" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/heapq.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6120">
+          <caret line="204" column="4" selection-start-line="204" selection-start-column="4" selection-end-line="204" selection-end-column="4" />
         </state>
       </provider>
     </entry>
