@@ -38,8 +38,102 @@ class Solution:
     3. dp的初始化：dp[0][j]=0, dp[1][j]=1, dp[i][0]=0, dp[i][1]=i
     4. dp的遍历方向：
         i的依赖向左，j的依赖向左，k的依赖向左，所以都从小到大遍历
+    5. dp优化：
+        通过减少k的遍历，寻找dp[i-k][j] >= dp[k-1][j-1]
     """
+    def __init__(self):
+        self.mem = dict()
+
     def superEggDrop(self, K, N):
+        """
+        直接二分查找+记忆化
+        整体流程：
+        1. 判别是否存在
+        2. 处理边界条件
+        3. 寻找k值
+        4. 填入数值
+        K代表鸡蛋，N代表楼层
+        """
+        # 1. 判别是否存在
+        if (K, N) in self.mem:
+            return self.mem[K, N]
+        
+        # 2. 处理边界条件
+        if K == 1:
+            return N
+        elif K == 0:
+            return 0
+        if N == 1:
+            return 1
+        elif N == 0:
+            return 0
+        
+        # 3. 寻找k值
+        left = 1
+        right = N
+        while True:
+            if left >= right:
+                break
+            mid = left + (right + 1 - left) // 2
+            # 递增
+            breaken = self.superEggDrop(K-1, mid-1)
+            # 递减
+            not_breaken = self.superEggDrop(K, N - mid)
+            if breaken == not_breaken:
+                left = mid
+                break
+            elif breaken < not_breaken:
+                left = mid
+            else:
+                right = mid - 1
+
+        self.mem[K, N] = max(self.superEggDrop(K-1, left-1), self.superEggDrop(K, N - left)) + 1
+
+        return self.mem[K, N]
+
+    def superEggDrop_bisearch(self, K, N):
+        """
+        K是鸡蛋，N是楼层
+        整体流程：
+        1. 生成dp矩阵
+        2. 初始化dp
+        3. 遍历i，j来更新dp矩阵
+        4. 使用二分查找来搜索k的值
+        5. 返回最终的值
+        """
+        # 1. 生成dp矩阵
+        dp = [[N+1 for _ in range(K+1)] for _ in range(N+1)]
+        # 2. 初始化dp
+        dp[0][0] = 0
+        for i in range(1, N+1):
+            dp[i][0] = 0
+            dp[i][1] = i
+        for j in range(1, K+1):
+            dp[0][j] = 0
+            dp[1][j] = 1
+
+        # 3. 遍历i，j来更新dp矩阵
+        for i in range(2, N+1):
+            for j in range(2, K+1):
+                left = 1
+                right = i
+                while True:
+                    if left >= right:
+                        break
+                    mid = left + (right + 1 - left) // 2
+                    if dp[i-mid][j] == dp[mid-1][j-1]:
+                        left = mid
+                        break
+                    elif dp[i-mid][j] > dp[mid-1][j-1]:
+                        left = mid
+                    else:
+                        right = mid - 1
+
+                dp[i][j] = max(dp[i-left][j], dp[left-1][j-1]) + 1
+
+        return dp[-1][-1]
+
+    def superEggDrop_basic(self, K, N):
         """
         K是鸡蛋，N是楼层
         整体流程：
