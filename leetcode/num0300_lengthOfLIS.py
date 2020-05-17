@@ -71,7 +71,6 @@ class Solution:
 
         return len(tail)
 
-
     def lengthOfLIS_dp(self, nums):
         """
         整体流程：
