@@ -29,8 +29,50 @@ class Solution:
     3. dp的初始化：dp[1] = 1
     4. dp的遍历方式：
         i的依赖向左，所以i从小到大遍历
+    二. 使用贪心和二分查找
+    关注结尾元素，维护一个tail的数组，代表序列长度为i时的最小结尾数是多少
+    更新的方式是当得到一个新的元素后，找到tail中比它小的最大的位置，
+    然后比较和i+1哪个大来进行更新
     """
     def lengthOfLIS(self, nums):
+        """
+        整体流程：
+        1. 生成tail数组以及其他相关变量
+        2. 遍历数组
+        3. 对于初始值进行处理
+        4. 二分查找位置
+        5. 对于特殊位置进行处理
+        6. 和i+1进行比较
+        """
+        # 1. 生成tail数组以及其他相关变量
+        tail = []
+
+        # 2. 遍历数组
+        for num in nums:
+            # 3. 对于初始值进行处理
+            if (len(tail) == 0) or (num > tail[-1]):
+                tail.append(num)
+                continue
+
+            # 4. 二分查找位置
+            left = 0
+            right = len(tail) - 1
+            loc = right
+            while left <= right:
+                mid = left + (right - left) // 2
+                if tail[mid] >= num:
+                    loc = mid
+                    right = mid - 1
+                else:
+                    left = mid + 1
+
+            # 5. 对于特殊位置进行处理
+            tail[loc] = num
+
+        return len(tail)
+
+
+    def lengthOfLIS_dp(self, nums):
         """
         整体流程：
         1. 生成dp矩阵等变量
