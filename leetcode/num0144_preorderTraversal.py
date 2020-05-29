@@ -40,6 +40,23 @@ class Solution:
         if root is None:
             return self.num_list
 
+        self.stack = [root]
+
+        while len(self.stack) > 0:
+            this_node = self.stack.pop(-1)
+            self.num_list.append(this_node.val)
+
+            if this_node.right is not None:
+                self.stack.append(this_node.right)
+            if this_node.left is not None:
+                self.stack.append(this_node.left)
+
+        return self.num_list
+
+    def preorderTraversal_two_list(self, root):
+        if root is None:
+            return self.num_list
+
         self.num_list.append(root.val)
         left_list = [root.left] if root.left is not None else []
         right_list = [root.right] if root.right is not None else []
@@ -97,7 +114,7 @@ def create_tree(nums):
 
 if __name__ == '__main__':
     nums = [1, None, 2, 3]
-    # nums = [1,4,3,2]
+    nums = [1,4,3,2]
     head = create_tree(nums)
     print(head)
     print(Solution().preorderTraversal(head))
