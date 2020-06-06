@@ -12,6 +12,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/leetcode$num0009_isPalindrome.coverage" NAME="num0009_isPalindrome Coverage Results" MODIFIED="1587307862994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$num0231_isPowerOfTwo.coverage" NAME="num0231_isPowerOfTwo Coverage Results" MODIFIED="1591582466357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$num0043_multiply.coverage" NAME="num0043_multiply Coverage Results" MODIFIED="1587567392936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$num0037_solveSudoku.coverage" NAME="num0037_solveSudoku Coverage Results" MODIFIED="1587744584526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$num0300_lengthOfLIS.coverage" NAME="num0300_lengthOfLIS Coverage Results" MODIFIED="1589859409910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -47,7 +48,7 @@
     <SUITE FILE_PATH="coverage/leetcode$num0122_maxProfit.coverage" NAME="num0122_maxProfit Coverage Results" MODIFIED="1587438122932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$num0042_trap.coverage" NAME="num0042_trap Coverage Results" MODIFIED="1588049148565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$num0292_canWinNim.coverage" NAME="num0292_canWinNim Coverage Results" MODIFIED="1588083191902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$num0235_lowestCommonAncestor.coverage" NAME="num0235_lowestCommonAncestor Coverage Results" MODIFIED="1591067116316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$num0235_lowestCommonAncestor.coverage" NAME="num0235_lowestCommonAncestor Coverage Results" MODIFIED="1591067215653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$num0206_reverseList.coverage" NAME="num0206_reverseList Coverage Results" MODIFIED="1587197404625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$num0014_longestCommonPrefix.coverage" NAME="num0014_longestCommonPrefix Coverage Results" MODIFIED="1590374675250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$num0322_coinChange.coverage" NAME="num0322_coinChange Coverage Results" MODIFIED="1587972248834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -81,15 +82,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/num0142_detectCycle.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1430">
-              <caret line="65" selection-start-line="65" selection-end-line="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/num0010_isMatch.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -138,17 +130,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/num0200_numIslands.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
+            <state relative-caret-position="2310">
               <caret line="105" column="11" selection-start-line="105" selection-start-column="11" selection-end-line="105" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/num0235_lowestCommonAncestor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+            <state relative-caret-position="442">
+              <caret line="92" column="19" lean-forward="true" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/num0231_isPowerOfTwo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="409">
+              <caret line="32" lean-forward="true" selection-start-line="16" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -187,7 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/num0011_maxArea.py" />
         <option value="$PROJECT_DIR$/num0394_decodeString.py" />
         <option value="$PROJECT_DIR$/num0007_reverse.py" />
         <option value="$PROJECT_DIR$/num0448_findDisappearedNumbers.py" />
@@ -238,6 +238,7 @@
         <option value="$PROJECT_DIR$/num0144_preorderTraversal.py" />
         <option value="$PROJECT_DIR$/num0200_numIslands.py" />
         <option value="$PROJECT_DIR$/num0235_lowestCommonAncestor.py" />
+        <option value="$PROJECT_DIR$/num0231_isPowerOfTwo.py" />
       </list>
     </option>
   </component>
@@ -276,7 +277,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -288,6 +288,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -309,29 +310,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.num0235_lowestCommonAncestor">
-    <configuration name="num0061_rotateRight" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/num0061_rotateRight.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.num0231_isPowerOfTwo">
     <configuration name="num0144_preorderTraversal" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -368,6 +347,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/num0200_numIslands.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="num0231_isPowerOfTwo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/num0231_isPowerOfTwo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -421,19 +422,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.num0061_rotateRight" />
       <item itemvalue="Python.num0200_numIslands" />
       <item itemvalue="Python.num0238_productExceptSelf" />
       <item itemvalue="Python.num0144_preorderTraversal" />
       <item itemvalue="Python.num0235_lowestCommonAncestor" />
+      <item itemvalue="Python.num0231_isPowerOfTwo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.num0231_isPowerOfTwo" />
         <item itemvalue="Python.num0235_lowestCommonAncestor" />
         <item itemvalue="Python.num0200_numIslands" />
         <item itemvalue="Python.num0144_preorderTraversal" />
         <item itemvalue="Python.num0238_productExceptSelf" />
-        <item itemvalue="Python.num0061_rotateRight" />
       </list>
     </recent_temporary>
   </component>
@@ -510,23 +511,24 @@
       <workItem from="1590633375647" duration="895000" />
       <workItem from="1590718878001" duration="4655000" />
       <workItem from="1590983114027" duration="3303000" />
-      <workItem from="1591065765953" duration="1302000" />
+      <workItem from="1591065765953" duration="1482000" />
+      <workItem from="1591322685159" duration="62000" />
+      <workItem from="1591582138502" duration="1683000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193224000" />
+    <option name="totallyTimeSpent" value="195149000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="395" width="1857" height="1092" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49853802" visible="true" weight="0.2905368" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49853802" visible="true" weight="0.29883784" />
       <window_info id="Structure" order="1" sideWeight="0.501462" side_tool="true" weight="0.2739347" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28451884" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28451884" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4874477" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -535,7 +537,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32928178" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.27557412" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2751046" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32928178" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1449,78 +1451,58 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/num0300_lengthOfLIS.py</url>
-          <line>50</line>
+          <line>91</line>
           <option name="timeStamp" value="394" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/num0300_lengthOfLIS.py</url>
-          <line>52</line>
+          <line>93</line>
           <option name="timeStamp" value="395" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/num0300_lengthOfLIS.py</url>
-          <line>53</line>
+          <line>94</line>
           <option name="timeStamp" value="396" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/num0300_lengthOfLIS.py</url>
-          <line>54</line>
+          <line>95</line>
           <option name="timeStamp" value="397" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/num0300_lengthOfLIS.py</url>
-          <line>57</line>
+          <line>98</line>
           <option name="timeStamp" value="398" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/num0300_lengthOfLIS.py</url>
-          <line>58</line>
+          <line>99</line>
           <option name="timeStamp" value="399" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/num0300_lengthOfLIS.py</url>
-          <line>60</line>
+          <line>101</line>
           <option name="timeStamp" value="400" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/num0300_lengthOfLIS.py</url>
-          <line>61</line>
+          <line>102</line>
           <option name="timeStamp" value="403" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/num0300_lengthOfLIS.py</url>
-          <line>62</line>
+          <line>103</line>
           <option name="timeStamp" value="404" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/num0300_lengthOfLIS.py</url>
-          <line>63</line>
+          <line>104</line>
           <option name="timeStamp" value="405" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/num0300_lengthOfLIS.py</url>
-          <line>59</line>
+          <line>100</line>
           <option name="timeStamp" value="424" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/num0300_lengthOfLIS.py</url>
-          <line>64</line>
-          <option name="timeStamp" value="425" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/num0300_lengthOfLIS.py</url>
-          <line>65</line>
-          <option name="timeStamp" value="426" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/num0300_lengthOfLIS.py</url>
-          <line>66</line>
-          <option name="timeStamp" value="427" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/num0300_lengthOfLIS.py</url>
-          <line>69</line>
-          <option name="timeStamp" value="428" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/num0088_merge.py</url>
@@ -1897,17 +1879,45 @@
           <line>65</line>
           <option name="timeStamp" value="518" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/num0231_isPowerOfTwo.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="519" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/num0231_isPowerOfTwo.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="520" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/num0231_isPowerOfTwo.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="521" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/num0231_isPowerOfTwo.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="522" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/num0231_isPowerOfTwo.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="523" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/num0231_isPowerOfTwo.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="524" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/num0231_isPowerOfTwo.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="525" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/num0009_isPalindrome.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-790">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/num0011_maxArea.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1166">
@@ -2220,6 +2230,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/num0200_numIslands.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2310">
+          <caret line="105" column="11" selection-start-line="105" selection-start-column="11" selection-end-line="105" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/num0238_productExceptSelf.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1144">
@@ -2234,17 +2251,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/num0200_numIslands.py">
+    <entry file="file://$PROJECT_DIR$/num0235_lowestCommonAncestor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="105" column="11" selection-start-line="105" selection-start-column="11" selection-end-line="105" selection-end-column="11" />
+        <state relative-caret-position="442">
+          <caret line="92" column="19" lean-forward="true" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/num0235_lowestCommonAncestor.py">
+    <entry file="file://$PROJECT_DIR$/num0231_isPowerOfTwo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+        <state relative-caret-position="409">
+          <caret line="32" lean-forward="true" selection-start-line="16" selection-end-line="32" />
         </state>
       </provider>
     </entry>
