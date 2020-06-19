@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f4d6151e-576f-457c-a7c0-0a7015dc0956" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../others/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../others/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../others/.idea/others.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../others/.idea/others.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../others/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../others/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +39,7 @@
     <SUITE FILE_PATH="coverage/leetcode$num0344_reverseString.coverage" NAME="num0344_reverseString Coverage Results" MODIFIED="1587450079650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$num0007_reverse.coverage" NAME="num0007_reverse Coverage Results" MODIFIED="1587392868077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$num0062_uniquePaths.coverage" NAME="num0062_uniquePaths Coverage Results" MODIFIED="1592383147347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$num0048_rotate.coverage" NAME="num0048_rotate Coverage Results" MODIFIED="1592538981591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$num0144_preorderTraversal.coverage" NAME="num0144_preorderTraversal Coverage Results" MODIFIED="1590722885701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$num0240_searchMatrix.coverage" NAME="num0240_searchMatrix Coverage Results" MODIFIED="1590205344648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$num0200_numIslands.coverage" NAME="num0200_numIslands Coverage Results" MODIFIED="1590986643718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -94,15 +98,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/num0102_levelOrder.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/num0016_threeSumClosest.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
@@ -123,17 +118,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/num0062_uniquePaths.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="47" column="29" lean-forward="true" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+            <state relative-caret-position="1034">
+              <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/num0017_letterCombinations.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/num0017_letterCombinations.py">
+        <entry file="file://$PROJECT_DIR$/num0048_rotate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="66" lean-forward="true" selection-start-line="16" selection-end-line="66" />
+            <state relative-caret-position="541">
+              <caret line="53" lean-forward="true" selection-start-line="16" selection-end-line="53" />
             </state>
           </provider>
         </entry>
@@ -195,7 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/num0023_mergeKLists.py" />
         <option value="$PROJECT_DIR$/num0004_findMedianSortedArrays.py" />
         <option value="$PROJECT_DIR$/num0054_spiralOrder.py" />
         <option value="$PROJECT_DIR$/num0026_removeDuplicates.py" />
@@ -246,6 +249,7 @@
         <option value="$PROJECT_DIR$/num0028_strStr.py" />
         <option value="$PROJECT_DIR$/num0062_uniquePaths.py" />
         <option value="$PROJECT_DIR$/num0017_letterCombinations.py" />
+        <option value="$PROJECT_DIR$/num0048_rotate.py" />
       </list>
     </option>
   </component>
@@ -284,7 +288,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -296,6 +299,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -317,7 +321,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.num0017_letterCombinations">
+  <component name="RunManager" selected="Python.num0048_rotate">
     <configuration name="num0016_threeSumClosest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -384,6 +388,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="num0048_rotate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/num0048_rotate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="num0062_uniquePaths" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -406,42 +432,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="num0102_levelOrder" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/num0102_levelOrder.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.num0016_threeSumClosest" />
       <item itemvalue="Python.num0028_strStr" />
-      <item itemvalue="Python.num0102_levelOrder" />
       <item itemvalue="Python.num0062_uniquePaths" />
       <item itemvalue="Python.num0017_letterCombinations" />
+      <item itemvalue="Python.num0048_rotate" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.num0048_rotate" />
         <item itemvalue="Python.num0017_letterCombinations" />
         <item itemvalue="Python.num0062_uniquePaths" />
         <item itemvalue="Python.num0028_strStr" />
         <item itemvalue="Python.num0016_threeSumClosest" />
-        <item itemvalue="Python.num0102_levelOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -531,18 +535,19 @@
       <workItem from="1592275001538" duration="4389000" />
       <workItem from="1592362899716" duration="1990000" />
       <workItem from="1592382361460" duration="956000" />
-      <workItem from="1592448033577" duration="1984000" />
+      <workItem from="1592448033577" duration="2803000" />
+      <workItem from="1592534076102" duration="4237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="224805000" />
+    <option name="totallyTimeSpent" value="229861000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="395" width="1857" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49853802" visible="true" weight="0.17210847" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49853802" visible="true" weight="0.17432208" />
       <window_info id="Structure" order="1" sideWeight="0.501462" side_tool="true" weight="0.2739347" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -2188,17 +2193,55 @@
           <line>70</line>
           <option name="timeStamp" value="598" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/num0048_rotate.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="599" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/num0048_rotate.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="600" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/num0048_rotate.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="601" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/num0048_rotate.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="602" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/num0048_rotate.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="603" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/num0048_rotate.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="604" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/num0048_rotate.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="605" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/num0048_rotate.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="606" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/num0048_rotate.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="607" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/num0146_LRUCache.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2090">
-          <caret line="95" column="28" selection-start-line="95" selection-start-column="28" selection-end-line="95" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/num0141_hasCycle.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="814">
@@ -2490,6 +2533,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/num0062_uniquePaths.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/num0001_two_sum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -2521,17 +2571,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/num0062_uniquePaths.py">
+    <entry file="file://$PROJECT_DIR$/num0017_letterCombinations.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="47" column="29" lean-forward="true" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+        <state relative-caret-position="290">
+          <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/num0017_letterCombinations.py">
+    <entry file="file://$PROJECT_DIR$/num0048_rotate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="66" lean-forward="true" selection-start-line="16" selection-end-line="66" />
+        <state relative-caret-position="541">
+          <caret line="53" lean-forward="true" selection-start-line="16" selection-end-line="53" />
         </state>
       </provider>
     </entry>
