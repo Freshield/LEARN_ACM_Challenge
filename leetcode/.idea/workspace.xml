@@ -12,6 +12,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/leetcode$num0013_romanToInt.coverage" NAME="num0013_romanToInt Coverage Results" MODIFIED="1591586558668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$num0025_reverseKGroup.coverage" NAME="num0025_reverseKGroup Coverage Results" MODIFIED="1594004678229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$num0112_hasPathSum.coverage" NAME="num0112_hasPathSum Coverage Results" MODIFIED="1593486627149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$num0009_isPalindrome.coverage" NAME="num0009_isPalindrome Coverage Results" MODIFIED="1587307862994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$num0231_isPowerOfTwo.coverage" NAME="num0231_isPowerOfTwo Coverage Results" MODIFIED="1591582466357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -103,15 +104,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/num0056_merge.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/num0112_hasPathSum.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="616">
@@ -132,17 +124,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/offer09_CQueue.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="880">
               <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/num0076_minWindow.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="73" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="73" />
+            <state relative-caret-position="263">
+              <caret line="54" column="55" selection-start-line="54" selection-start-column="55" selection-end-line="54" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/num0025_reverseKGroup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="97" lean-forward="true" selection-start-line="26" selection-end-line="97" />
             </state>
           </provider>
         </entry>
@@ -204,7 +205,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/num0042_trap.py" />
         <option value="$PROJECT_DIR$/num0292_canWinNim.py" />
         <option value="$PROJECT_DIR$/num0208_Trie.py" />
         <option value="$PROJECT_DIR$/num0104_maxDepth.py" />
@@ -255,6 +255,7 @@
         <option value="$PROJECT_DIR$/num0083_deleteDuplicates.py" />
         <option value="$PROJECT_DIR$/offer09_CQueue.py" />
         <option value="$PROJECT_DIR$/num0076_minWindow.py" />
+        <option value="$PROJECT_DIR$/num0025_reverseKGroup.py" />
       </list>
     </option>
   </component>
@@ -293,6 +294,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -304,7 +306,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -326,8 +327,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.num0076_minWindow">
-    <configuration name="num0056_merge" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.num0025_reverseKGroup">
+    <configuration name="num0025_reverseKGroup" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -340,7 +341,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/num0056_merge.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/num0025_reverseKGroup.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -438,19 +439,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.num0056_merge" />
       <item itemvalue="Python.num0112_hasPathSum" />
       <item itemvalue="Python.num0083_deleteDuplicates" />
       <item itemvalue="Python.offer09_CQueue" />
       <item itemvalue="Python.num0076_minWindow" />
+      <item itemvalue="Python.num0025_reverseKGroup" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.num0025_reverseKGroup" />
         <item itemvalue="Python.num0076_minWindow" />
         <item itemvalue="Python.offer09_CQueue" />
         <item itemvalue="Python.num0083_deleteDuplicates" />
         <item itemvalue="Python.num0112_hasPathSum" />
-        <item itemvalue="Python.num0056_merge" />
       </list>
     </recent_temporary>
   </component>
@@ -550,18 +551,19 @@
       <workItem from="1593482220462" duration="3511000" />
       <workItem from="1593579007938" duration="964000" />
       <workItem from="1593659114269" duration="1518000" />
-      <workItem from="1593742545071" duration="7200000" />
+      <workItem from="1593742545071" duration="7236000" />
+      <workItem from="1594002478135" duration="2053000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="256632000" />
+    <option name="totallyTimeSpent" value="258721000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="402" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49853802" visible="true" weight="0.19424461" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49853802" visible="true" weight="0.19645822" />
       <window_info id="Structure" order="1" sideWeight="0.501462" side_tool="true" weight="0.2739347" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -575,7 +577,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32928178" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.26987448" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.26931107" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32928178" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -2436,13 +2438,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/num0019_removeNthFromEnd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/num0160_getIntersectionNode.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3344">
@@ -2734,6 +2729,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/offer09_CQueue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/num0001_two_sum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -2765,17 +2767,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/offer09_CQueue.py">
+    <entry file="file://$PROJECT_DIR$/num0076_minWindow.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+        <state relative-caret-position="263">
+          <caret line="54" column="55" selection-start-line="54" selection-start-column="55" selection-end-line="54" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/num0076_minWindow.py">
+    <entry file="file://$PROJECT_DIR$/num0025_reverseKGroup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="73" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="73" />
+        <state relative-caret-position="299">
+          <caret line="97" lean-forward="true" selection-start-line="26" selection-end-line="97" />
         </state>
       </provider>
     </entry>
