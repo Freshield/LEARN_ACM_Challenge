@@ -85,6 +85,7 @@
     <SUITE FILE_PATH="coverage/leetcode$num0007_reverse.coverage" NAME="num0007_reverse Coverage Results" MODIFIED="1587392868077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$num0048_rotate.coverage" NAME="num0048_rotate Coverage Results" MODIFIED="1592538981591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$num0022_generateParenthesis.coverage" NAME="num0022_generateParenthesis Coverage Results" MODIFIED="1591671524857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$num0153_findMin.coverage" NAME="num0153_findMin Coverage Results" MODIFIED="1595819885552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$num0056_merge.coverage" NAME="num0056_merge Coverage Results" MODIFIED="1593310043599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$num0557_reverseWords.coverage" NAME="num0557_reverseWords Coverage Results" MODIFIED="1595384498219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$num0146_LRUCache.coverage" NAME="num0146_LRUCache Coverage Results" MODIFIED="1587359592064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -116,24 +117,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/num0045_jump.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/num0347_topKFrequent.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/num0415_addStrings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1122">
@@ -145,17 +128,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/num0557_reverseWords.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
+            <state relative-caret-position="1188">
               <caret line="54" column="62" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/num0199_rightSideView.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="68" lean-forward="true" selection-start-line="27" selection-end-line="68" />
+            <state relative-caret-position="365">
+              <caret line="70" column="15" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/num0704_search.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-132">
+              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/num0153_findMin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="505">
+              <caret line="56" lean-forward="true" selection-start-line="16" selection-end-line="56" />
             </state>
           </provider>
         </entry>
@@ -213,7 +214,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/num0155_MinStack.py" />
         <option value="$PROJECT_DIR$/num0006_convert.py" />
         <option value="$PROJECT_DIR$/num0300_lengthOfLIS.py" />
         <option value="$PROJECT_DIR$/num0088_merge.py" />
@@ -264,6 +264,7 @@
         <option value="$PROJECT_DIR$/num0415_addStrings.py" />
         <option value="$PROJECT_DIR$/num0557_reverseWords.py" />
         <option value="$PROJECT_DIR$/num0199_rightSideView.py" />
+        <option value="$PROJECT_DIR$/num0153_findMin.py" />
       </list>
     </option>
   </component>
@@ -335,8 +336,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.num0199_rightSideView">
-    <configuration name="num0045_jump" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.num0153_findMin">
+    <configuration name="num0153_findMin" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -349,7 +350,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/num0045_jump.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/num0153_findMin.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -447,19 +448,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.num0045_jump" />
       <item itemvalue="Python.num0347_topKFrequent" />
       <item itemvalue="Python.num0415_addStrings" />
       <item itemvalue="Python.num0557_reverseWords" />
       <item itemvalue="Python.num0199_rightSideView" />
+      <item itemvalue="Python.num0153_findMin" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.num0153_findMin" />
         <item itemvalue="Python.num0199_rightSideView" />
         <item itemvalue="Python.num0557_reverseWords" />
         <item itemvalue="Python.num0415_addStrings" />
         <item itemvalue="Python.num0347_topKFrequent" />
-        <item itemvalue="Python.num0045_jump" />
       </list>
     </recent_temporary>
   </component>
@@ -576,24 +577,25 @@
       <workItem from="1595298916673" duration="1668000" />
       <workItem from="1595383588195" duration="1543000" />
       <workItem from="1595402889770" duration="10000" />
-      <workItem from="1595559259421" duration="2749000" />
+      <workItem from="1595559259421" duration="2895000" />
+      <workItem from="1595815122250" duration="2672000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="282835000" />
+    <option name="totallyTimeSpent" value="285653000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="402" width="1855" height="1084" extended-state="6" />
+    <frame x="64" y="395" width="1857" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49853802" visible="true" weight="0.15716657" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49853802" visible="true" weight="0.15882678" />
       <window_info id="Structure" order="1" sideWeight="0.501462" side_tool="true" weight="0.2739347" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28451884" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4874477" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4288703" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -2483,17 +2485,50 @@
           <line>82</line>
           <option name="timeStamp" value="670" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/num0153_findMin.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="671" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/num0153_findMin.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="672" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/num0153_findMin.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="673" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/num0153_findMin.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="674" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/num0153_findMin.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="675" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/num0153_findMin.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="676" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/num0153_findMin.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="677" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/num0153_findMin.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="678" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/num0014_longestCommonPrefix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/num0240_searchMatrix.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1386">
@@ -2731,13 +2766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/num0704_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/num0063_uniquePathsWithObstacles.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
@@ -2787,6 +2815,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/num0557_reverseWords.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="54" column="62" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/num0144_preorderTraversal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1056">
@@ -2814,17 +2849,24 @@
     <entry file="file://$PROJECT_DIR$/num0166_fractionToDecimal.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/num0557_reverseWords.py">
+    <entry file="file://$PROJECT_DIR$/num0199_rightSideView.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="54" column="62" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="62" />
+        <state relative-caret-position="365">
+          <caret line="70" column="15" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/num0199_rightSideView.py">
+    <entry file="file://$PROJECT_DIR$/num0704_search.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="68" lean-forward="true" selection-start-line="27" selection-end-line="68" />
+        <state relative-caret-position="-132">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/num0153_findMin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="56" lean-forward="true" selection-start-line="16" selection-end-line="56" />
         </state>
       </provider>
     </entry>
