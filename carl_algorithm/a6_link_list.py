@@ -22,4 +22,4 @@ class ListNode(object):
         self.next = next
 
     def __str__(self):
-        return f'{self.val} -> {self.next}'
+        return f'{self.val}'# -> {self.next}'
