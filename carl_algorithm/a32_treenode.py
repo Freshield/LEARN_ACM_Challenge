@@ -21,6 +21,7 @@ class TreeNode(object):
         self.val = val
         self.left = None
         self.right = None
+        self.test = []
 
     def __str__(self):
         return f'{self.val}, [l:{self.left}, r:{self.right}]'
@@ -29,34 +30,26 @@ class TreeNode(object):
 def create_tree(num_list):
     """
     建立根节点和节点列表
-    1. 创建根节点和节点队列
-    2. 遍历数值
-    3. 新建节点并放到节点队列中
-    4. 如果节点队列top的左节点还为空则连接到左节点
-    5. 如果节点队列top的有节点还为空则连接到右节点，并弹出此节点
+    1. 根据num_list建立相应的节点，如果为空则是空
+    2. 遍历直到2*i+1小于num_list长度
+    3. 按照i节点，2*i+1为左节点，2*i+2为右节点设置
     """
     if len(num_list) == 0:
         return None
-    # 1. 创建根节点和节点队列
-    root = TreeNode(num_list[0])
-    node_queue = [root]
-    # 2. 遍历数值
-    for i in range(1, len(num_list)):
-        #  3. 新建节点并放到节点队列中
-        this_node = TreeNode(num_list[i])
-        node_queue.append(this_node)
-        # 4. 如果节点队列top的左节点还为空则连接到左节点
-        if node_queue[0].left is None:
-            node_queue[0].left = this_node
-        # 5. 如果节点队列top的有节点还为空则连接到右节点，并弹出此节点
-        elif node_queue[0].right is None:
-            node_queue[0].right = this_node
-            node_queue.pop(0)
+    # 1. 根据num_list建立相应的节点，如果为空则是空
+    node_list = [TreeNode(num) if num is not None else None for num in num_list]
+    # 2. 遍历直到2*i+1小于num_list长度
+    i = 0
+    while 2*i+1 < len(num_list):
+        this_node = node_list[i]
+        this_node.left = node_list[2*i+1]
+        this_node.right = node_list[2*i+2]
 
-    return root
+        i += 1
+
+    return node_list[0]
 
 
 if __name__ == '__main__':
     num_list = [1, 2, 3, 4, 5]
     root = create_tree(num_list)
-    print(root)
