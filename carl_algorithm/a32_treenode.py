@@ -33,6 +33,7 @@ def create_tree(num_list):
     1. 根据num_list建立相应的节点，如果为空则是空
     2. 遍历直到2*i+1小于num_list长度
     3. 按照i节点，2*i+1为左节点，2*i+2为右节点设置
+    4. 处理多出来的单节点
     """
     if len(num_list) == 0:
         return None
@@ -40,16 +41,20 @@ def create_tree(num_list):
     node_list = [TreeNode(num) if num is not None else None for num in num_list]
     # 2. 遍历直到2*i+1小于num_list长度
     i = 0
-    while 2*i+1 < len(num_list):
+    while 2*i+2 < len(num_list):
         this_node = node_list[i]
+        # 3. 按照i节点，2*i+1为左节点，2*i+2为右节点设置
         this_node.left = node_list[2*i+1]
         this_node.right = node_list[2*i+2]
 
         i += 1
+    # 4. 处理多出来的单节点
+    if 2*i+1 < len(num_list):
+        node_list[i].left = node_list[2*i+1]
 
     return node_list[0]
 
 
 if __name__ == '__main__':
-    num_list = [1, 2, 3, 4, 5]
-    root = create_tree(num_list)
+    root = create_tree(range(7))
+    print(root)
