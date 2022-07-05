@@ -26,6 +26,9 @@ class TreeNode(object):
     def __str__(self):
         return f'{self.val}, [l:{self.left}, r:{self.right}]'
 
+    def __repr__(self):
+        return self.__str__()
+
 
 def create_tree(num_list):
     """
