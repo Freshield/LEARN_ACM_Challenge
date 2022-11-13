@@ -24,6 +24,9 @@ class ListNode(object):
     def __str__(self):
         return f'{self.val}->{self.next}'
 
+    def __repr__(self):
+        return self.__str__()
+
 
 def link_list(head_list):
     """
