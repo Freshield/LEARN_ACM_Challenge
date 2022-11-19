@@ -46,6 +46,9 @@ def create_tree(num_list):
     i = 0
     while 2*i+2 < len(num_list):
         this_node = node_list[i]
+        if this_node is None:
+            i += 1
+            continue
         # 3. 按照i节点，2*i+1为左节点，2*i+2为右节点设置
         this_node.left = node_list[2*i+1]
         this_node.right = node_list[2*i+2]
